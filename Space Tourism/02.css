@@ -1,0 +1,386 @@
+@media screen and (min-width: 1280px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/crew/background-crew-desktop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+
+  header {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(167, 161, 161, 0.301),
+      rgb(27, 35, 41)
+    );
+    width: 50%;
+    border-radius: 0.5rem;
+  }
+
+  .logo {
+    padding: 0 1.5rem;
+    font-size: 1.55rem;
+  }
+
+  .logo img {
+    width: 3rem;
+  }
+
+  #menuicon {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text {
+    flex-basis: 50%;
+  }
+
+  .image {
+    flex-basis: 50%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .txt {
+    padding: 2.5rem;
+  }
+
+  .txt p {
+    width: 70%;
+  }
+
+  .txt h1 {
+    font-size: 3rem;
+  }
+
+  .txt h3 {
+    color: rgb(175, 161, 161);
+  }
+
+  .txt p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .image {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img {
+    width: 70%;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .top {
+    margin-bottom: 1rem;
+    padding: 3.75rem;
+    font-size: 1.35rem;
+  }
+
+  .top span {
+    color: rgb(175, 161, 161);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/crew/background-crew-tablet.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    width: 100%;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(226, 220, 220, 0.226),
+      rgb(4, 27, 43)
+    );
+    width: 70%;
+    border-radius: 0.5rem;
+  }
+
+  .logo {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo img {
+    width: 2rem;
+  }
+
+  #menuicon {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li b {
+    color: rgb(175, 161, 161);
+    font-weight: bold;
+  }
+
+  .text-container {
+    display: block;
+    width: 100%;
+    top: 20%;
+  }
+
+  .text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2rem;
+  }
+
+  .image {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .txt {
+    width: 100%;
+  }
+
+  .txt h3,
+  .txt h1,
+  .txt p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .txt h1 {
+    font-size: 1.85rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .txt h3 {
+    font-size: 1.2rem;
+    color: rgb(175, 161, 161);
+    font-weight: bold;
+  }
+
+  .top {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .top span {
+    margin-right: 0.5rem;
+    color: rgb(175, 161, 161);
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/crew/background-crew-mobile.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    width: 100%;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    /*overflow-x: hidden;*/
+  }
+
+  header {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(226, 220, 220, 0.226),
+      rgb(4, 27, 43)
+    );
+    width: 70%;
+    border-radius: 0.5rem;
+    display: none;
+  }
+
+  .logo {
+    padding: 1rem;
+  }
+
+  .logo img {
+    width: 2.5rem;
+  }
+
+  svg {
+    padding-top: 0.85rem;
+  }
+
+  #menuicon {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text-container {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+  }
+
+  .text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .image {
+    width: 50%;
+    margin: auto;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .txt {
+    width: 100%;
+  }
+
+  .txt h3,
+  .txt h1,
+  .txt p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .txt h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.75rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+  }
+
+  .txt h3 {
+    font-size: 1.25rem;
+    color: rgb(175, 161, 161);
+    letter-spacing: 0.25rem;
+  }
+
+  .txt p {
+    font-size: 1.25rem;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+  }
+
+  .top {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+
+  .top span {
+    color: rgb(175, 161, 161);
+    margin-right: 0.5rem;
+  }
+} ;

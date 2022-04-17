@@ -1,0 +1,389 @@
+@media screen and (min-width: 1280px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-style: century gothic;
+  }
+
+  header {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(226, 220, 220, 0.226),
+      rgb(4, 27, 43)
+    );
+    width: 50%;
+    border-radius: 0.5rem;
+  }
+
+  .logo {
+    padding: 0 1.5rem;
+    font-size: 1.55rem;
+  }
+
+  .logo img {
+    width: 3rem;
+  }
+
+  #menuicon {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+  }
+
+  .text {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .explore {
+    flex-basis: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    width: 80%;
+    padding: 0 0 3rem 3rem;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
+
+  .card p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+  }
+
+  .text h4 {
+    font-size: 1.8rem;
+  }
+
+  .text h2 {
+    font-size: 5rem;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+    width: 90%;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+
+  header {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(226, 220, 220, 0.226),
+      rgb(4, 27, 43)
+    );
+    width: 70%;
+    border-radius: 0.5rem;
+  }
+
+  .logo {
+    padding: 0.75rem;
+  }
+
+  .logo img {
+    width: 1.5rem;
+  }
+
+  #menuicon {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li b {
+    color: rgba(182, 170, 170, 0.863);
+    font-weight: bold;
+  }
+
+  .text-container {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 15%;
+    justify-content: space-between;
+  }
+
+  .text {
+    width: 100%;
+    flex-basis: 40%;
+    margin-left: 3rem;
+  }
+
+  .main {
+    font-size: 0.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+  }
+
+  .main h4 {
+    font-size: 0.85rem;
+    display: flex;
+    letter-spacing: 0.25rem;
+    color: rgba(182, 170, 170, 0.863);
+  }
+
+  .main h2 {
+    font-size: 3rem;
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .main p {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    line-height: 2;
+    color: rgba(182, 170, 170, 0.863);
+  }
+
+  .explore {
+    padding: 2rem;
+    margin: auto 0;
+    flex-basis: 25%;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: solid 1px white;
+  }
+
+  .card p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/home/background-home-mobile.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+
+  header {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .navbar {
+    background-image: radial-gradient(
+      rgba(226, 220, 220, 0.226),
+      rgb(4, 27, 43)
+    );
+    width: 70%;
+    border-radius: 0.5rem;
+    display: none;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .logo img {
+    width: 1.5rem;
+  }
+
+  #menuicon {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  li {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 700;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text-container {
+    margin: 0;
+    display: block;
+    top: 15%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .main {
+    font-size: 0.5rem;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0ex;
+  }
+
+  .main h4 {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    color: rgba(182, 170, 170, 0.863);
+  }
+
+  .main h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .main p {
+    font-size: 0.65rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    line-height: 2;
+    text-align: center;
+    color: rgba(182, 170, 170, 0.863);
+    font-weight: bold;
+  }
+
+  .explore {
+    padding: 2rem;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+    border: solid 1px white;
+  }
+
+  .card p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
